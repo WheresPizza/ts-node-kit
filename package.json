@@ -1,0 +1,45 @@
+{
+  "name": "NodeNextTypescriptKit",
+  "version": "1.0.0",
+  "description": "Starter kit to not puck with node js env anymore",
+  "type": "module",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/src/app.js",
+    "dev": "nodemon",
+    "build": "rimraf dist && swc src -d dist",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "author": "Lizardog<wherespizza@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@swc/cli": "^0.4.1-nightly.20240914",
+    "@swc/core": "^1.7.39",
+    "@swc/jest": "^0.2.36",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.7.9",
+    "@typescript-eslint/eslint-plugin": "^8.11.0",
+    "@typescript-eslint/parser": "^8.11.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "jest": "^29.7.0",
+    "lint-staged": "^15.2.10",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3",
+    "ts-jest": "^29.2.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.11.0"
+  }
+}
