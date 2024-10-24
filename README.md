@@ -4,7 +4,9 @@ Uses nodemon by default to run dev server
 
 Build application using twc
 
-Includes express
+Includes express.
+
+Stack: Nodejs (NodeNext, module), Typescript, swc-compiler, nodemon, jest, eslint, prettier.
 
 # Get started:
 
